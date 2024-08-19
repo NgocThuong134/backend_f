@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/backend', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://ngocthuong:WwiNYGR3gVyVLEF3@atlascluster.dicjzo3.mongodb.net/backend', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
